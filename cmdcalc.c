@@ -178,7 +178,6 @@ void getString(int operations, char * resultString, int * results, int decodingK
 	{
 		int numChar = results[i] - decodingKey;
 		resultString[i] = numChar;
-		printf("%c\n", resultString[i]);
 	}
 	resultString[operations] = 0;
 }
